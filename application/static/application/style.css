@@ -1,0 +1,85 @@
+.container {
+  padding-bottom: 1em;
+}
+
+h1, h2, h3, h4 {
+  padding-top: 1rem;
+}
+
+.code {
+  font-family: "Courier New", monospace !important;
+  background-color: #333;
+}
+
+.ipa {
+  font-family: sans-serif !important;
+  font-size: 1.2em;
+}
+
+.ipa a {
+  text-decoration: none !important;
+}
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td, th {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px 5px;
+  border-color: #999;
+}
+
+th.code {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.not-official {
+  color: #dc1b1b;
+}
+
+.link-lang {
+  font-style: italic;
+  font-size: 0.6em;
+  color: #666;
+}
+
+.link-lang::before {
+  content: "(";
+}
+
+.link-lang::after {
+  content: ")";
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #2a2a2a;
+}
+
+.impossible {
+  border: none;
+  background-color: #2a2a2a;
+}
+
+.thicker-top {
+  border-top-width: 3px;
+}
+
+.thicker-right {
+  border-right-width: 3px;
+}
+
+.thicker-left {
+  border-left-width: 3px;
+}
+
+#output {
+  font-size: inherit;
+}
