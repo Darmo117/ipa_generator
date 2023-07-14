@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>IPA Generator</title>
-  <link rel="stylesheet" href="{% static 'application/bootstrap.min.css' %}"/>
-  <link rel="stylesheet" href="{% static 'application/bootstrap-night.css' %}"/>
-  <link rel="stylesheet" href="{% static 'application/style.css' %}"/>
+  <link rel="stylesheet" href="{% static 'application/../../static/application/bootstrap.min.css' %}"/>
+  <link rel="stylesheet" href="{% static 'application/../../static/application/bootstrap-night.css' %}"/>
+  <link rel="stylesheet" href="{% static 'application/../../static/application/style.css' %}"/>
 </head>
 <body>
   <div class="container">
@@ -37,8 +37,8 @@
       <span id="alert-text"></span><br>
       <small>Click to dismiss</small>
     </div>
-    <script src="{% static 'application/jquery-3.7.0.min.js' %}"></script>
-    <script src="{% static 'application/script.js' %}"></script>
+    <script src="{% static 'application/../../static/application/jquery-3.7.0.min.js' %}"></script>
+    <script src="{% static 'application/../../static/application/script.js' %}"></script>
     <div class="cheat-sheet">
       {% include 'application/ipa_codes.html' %}
     </div>
